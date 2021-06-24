@@ -28,7 +28,9 @@ window.contentfulExtension.init(function(api) {
       toolbar: tb,
       menubar: mb,
       style_formats: sf,
-      external_plugins: ep,
+      external_plugins: {
+        ep
+      },
       content_css: cc,
       visualblocks_default_state: vb,
       end_container_on_empty_block: ec,
