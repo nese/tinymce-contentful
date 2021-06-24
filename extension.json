@@ -58,7 +58,7 @@
       {
           "id": "external_plugins",
           "name": "External plugins",
-          "type": "Symbol",
+          "type": "Object",
           "default": {
             "tiny_mce_wiris": "mathtype.min.js"
           },
