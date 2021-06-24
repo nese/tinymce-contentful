@@ -1,6 +1,6 @@
 {
-  "id": "TinyMCE (v2)",
-  "name": "TinyMCE (v2)",
+  "id": "TinyMCE",
+  "name": "TinyMCE",
   "src": "https://contentful.tiny.cloud/",
   "fieldTypes": ["Text"],
   "parameters": {
@@ -46,6 +46,46 @@
           "default": "edit view insert format",
           "required": false,
           "description": "Specify the menus to display here. To use the default menu bar, clear this field. To hide the menu, enter the value 'false'. See https://www.tiny.cloud/docs/configure/editor-appearance/#menubar"
+      },
+      {
+          "id": "style_formats",
+          "name": "Style formats",
+          "type": "Symbol",
+          "default": "",
+          "required": false,
+          "description": "See https://www.tiny.cloud/docs/configure/editor-appearance/#style_formats"
+      },
+      {
+          "id": "external_plugins",
+          "name": "External plugins",
+          "type": "Symbol",
+          "default": "mathtype.min.js",
+          "required": false,
+          "description": "See https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins"
+      },
+      {
+          "id": "content_css",
+          "name": "Content CSS",
+          "type": "Symbol",
+          "default": "content-css.css",
+          "required": false,
+          "description": "See https://www.tiny.cloud/docs/configure/content-appearance/#content_css"
+      },
+      {
+          "id": "visualblocks_default_state",
+          "name": "Visualblocks default state",
+          "type": "Boolean",
+          "default": false,
+          "required": false,
+          "description": "Possible Values: true, false. See https://www.tiny.cloud/docs/plugins/opensource/visualblocks/#visualblocks_default_state"
+      },
+      {
+          "id": "end_container_on_empty_block",
+          "name": "End container on empty block",
+          "type": "Boolean",
+          "default": false,
+          "required": false,
+          "description": "Possible Values: true, false. See https://www.tiny.cloud/docs/configure/advanced-editing-behavior/#end_container_on_empty_block"
       }
     ]
   }
