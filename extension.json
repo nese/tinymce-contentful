@@ -58,8 +58,8 @@
       {
           "id": "external_plugins",
           "name": "External plugins",
-          "type": "Object",
-          "default": "",
+          "type": "Symbol",
+          "default": "tiny_mce_wiris: mathtype.min.js",
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins"
       },
