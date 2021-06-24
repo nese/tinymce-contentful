@@ -14,6 +14,11 @@ window.contentfulExtension.init(function(api) {
     var p = tweak(api.parameters.instance.plugins);
     var tb = tweak(api.parameters.instance.toolbar);
     var mb = tweak(api.parameters.instance.menubar);  
+    var sf = tweak(api.parameters.instance.style_formats);
+    var ep = tweak(api.parameters.instance.external_plugins);
+    var cc = tweak(api.parameters.instance.content_css);
+    var vb = tweak(api.parameters.instance.visualblocks_default_state);
+    var ec = tweak(api.parameters.instance.end_container_on_empty_block);
 
     api.window.startAutoResizer();
 
@@ -22,6 +27,11 @@ window.contentfulExtension.init(function(api) {
       plugins: p,
       toolbar: tb,
       menubar: mb,
+      style_formats: sf,
+      external_plugins: ep,
+      content_css: cc,
+      visualblocks_default_state: vb,
+      end_container_on_empty_block: ec,
       min_height: 600,
       max_height: 750,
       autoresize_bottom_margin: 15,
