@@ -101,5 +101,6 @@ window.contentfulExtension.init(function(api) {
 
   loadScript(tinymceUrl, function() {
     tinymceForContentful(api);
+    console.log(api);
   });
 });
