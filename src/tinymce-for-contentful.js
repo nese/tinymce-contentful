@@ -100,7 +100,7 @@ window.contentfulExtension.init(function(api) {
   var tinymceUrl = "https://" + sub + ".tiny.cloud/1/" + apiKey + "/tinymce/" + channel + "/tinymce.min.js";
 
   loadScript(tinymceUrl, function() {
-    tinymceForContentful(api);
     console.log(api);
+    tinymceForContentful(api);
   });
 });
