@@ -29,7 +29,7 @@ window.contentfulExtension.init(function(api) {
       menubar: mb,
       style_formats: sf,
       external_plugins: ep,
-      content_css: cc,
+      content_css: "https://raw.githubusercontent.com/nese/tinymce-contentful/master/src/content-css.css",
       visualblocks_default_state: vb,
       end_container_on_empty_block: ec,
       min_height: 600,
