@@ -2,20 +2,7 @@
   "id": "TinyMCE",
   "name": "TinyMCE",
   "src": "https://contentful.tiny.cloud/",
-  "fieldTypes": [
-      {
-        "type": "Symbol"
-      },
-      {
-        "type": "Text"
-      },
-      {
-        "type": "Boolean"
-      },
-      {
-        "type": "Object"
-      }
-    ],
+  "fieldTypes": [ "Symbol", "Text", "Boolean", "Object"],
   "parameters": {
     "installation": [
       {
@@ -70,7 +57,7 @@
       {
           "id": "external_plugins",
           "name": "External plugins",
-          "type": "Object",
+          "type": "Symbol",
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins"
       },
