@@ -2,7 +2,7 @@
   "id": "TinyMCE",
   "name": "TinyMCE",
   "src": "https://contentful.tiny.cloud/",
-  "fieldTypes": ["Text"],
+  "fieldTypes": ["Text", "Symbol", "Boolean", "Object"],
   "parameters": {
     "installation": [
       {
@@ -51,15 +51,13 @@
           "id": "style_formats",
           "name": "Style formats",
           "type": "Symbol",
-          "default": "",
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/editor-appearance/#style_formats"
       },
       {
           "id": "external_plugins",
           "name": "External plugins",
-          "type": "Symbol",
-          "default": "tiny_mce_wiris: mathtype.min.js",
+          "type": "Object",
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins"
       },
