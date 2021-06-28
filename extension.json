@@ -71,8 +71,8 @@
       {
           "id": "external_plugins",
           "name": "External plugins",
-          "type": "Symbol",
-          "default": "",
+          "type": "Object",
+          "default": {},
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins"
       },
