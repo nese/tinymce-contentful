@@ -2,7 +2,20 @@
   "id": "TinyMCE",
   "name": "TinyMCE",
   "src": "https://contentful.tiny.cloud/",
-  "fieldTypes": ["Text"],
+  "fieldTypes": [
+      {
+        "type": "Symbol"
+      },
+      {
+        "type": "Text"
+      },
+      {
+        "type": "Boolean"
+      },
+      {
+        "type": "Object"
+      }
+    ],
   "parameters": {
     "installation": [
       {
