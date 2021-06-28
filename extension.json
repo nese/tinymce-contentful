@@ -51,6 +51,7 @@
           "id": "style_formats",
           "name": "Style formats",
           "type": "Symbol",
+          "default": "",
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/editor-appearance/#style_formats"
       },
@@ -58,6 +59,7 @@
           "id": "external_plugins",
           "name": "External plugins",
           "type": "Symbol",
+          "default": "",
           "required": false,
           "description": "See https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins"
       },
